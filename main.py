@@ -97,3 +97,4 @@ trnadict = {"UAG": "STOP",
 #trna = mrnaallstr.translate(trnadict)
 trna = (" ".join([trnadict[w] for w in mrnaallstr.split()]))
 print('Amino Acids:', trna)
+##
